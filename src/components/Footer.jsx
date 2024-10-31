@@ -31,8 +31,8 @@ const Footer = () => {
 
           <div className="flex items-center gap-3 mt-3">
             <MdEmail />
-            <a href="mailto:info@sama-alsayer.iq">
-              <p>info@sama-alsayer.iq</p>
+            <a href="mailto:info@albasra-heavy-machinery.iq">
+              <p>info@albasra-heavy-machinery.iq</p>
             </a>
           </div>
         </div>

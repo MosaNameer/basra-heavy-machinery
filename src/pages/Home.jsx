@@ -162,12 +162,12 @@ const Home = () => {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
-        <div className="relative z-10 text-center w-full">
+        <div className="relative text-center w-full">
           <h1 className="text-3xl font-bold text-white mb-4">   {t("homePage.contactUs")}</h1>
           <p className="text-lg text-gray-300 mb-8">
           {t("homePage.contactUsContent")}
           </p>
-          <a href="mailto:info@sama-alsayer.iq">
+          <a href="mailto:info@albasra-heavy-machinery.iq">
             <button className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg">
             {t("homePage.contactUsButton")}
             </button>
