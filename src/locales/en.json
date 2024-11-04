@@ -1,92 +1,94 @@
 {
-    "home": "Home",
-    "gallery": "Products",
-    "about": "About",
-    "contact": "Contact us",
-    "phonenumber": "  phone number 📞 ",
-    "Email": "  Email✉️ ",
-    "phonenumberin": "  phone number  ",
-    "Emailin": "  Email  ",
-    "submit": "submit",
-    "name": "name",
-    "contactdis": "Stay in touch with us, we are here to help you",
-    "homePage": {
-      "companyName": "Albasra Heavy Machinery",
-      "companyDescription": "A company that carries out the work of preparing, implementing and designing projects of a technical and engineering nature in the field of electric power generation plants as well as oil and gas projects, as well as designing and equipping water filtration and industrial water treatment plants.",
-      "companyDescriptionButton": "About ",
-      "aboutUs": "About ",
-      "aboutUsContent": "We are a company specialized in implementing engineering projects in the fields of energy, oil, and gas, and designing water treatment plants. It was established in 1994 and has developed into a leading company in the field of contracting and energy. We seek to provide sustainable solutions of high quality in accordance with global standards for infrastructure development.",
-      "OurGallery": "Products",
-      "OurGalleryButton": "See More",
-      "contactUs": "Contact ",
-      "contactUsContent": "Feel free to send us a message",
-      "contactUsButton": "Get Started"
+  "home": "Home",
+  "gallery": "Products",
+  "about": "About",
+  "contact": "Contact us",
+  "phonenumber": "  phone number 📞 ",
+  "Email": "  Email✉️ ",
+  "phonenumberin": "  phone number  ",
+  "Emailin": "  Email  ",
+  "submit": "submit",
+  "name": "name",
+  "contactdis": "Stay in touch with us, we are here to help you",
+  "homePage": {
+    "companyName": "Albasra Heavy Machinery",
+    "companyDescription": "A company that carries out the work of preparing, implementing and designing projects of a technical and engineering nature in the field of electric power generation plants as well as oil and gas projects, as well as designing and equipping water filtration and industrial water treatment plants.",
+    "companyDescriptionButton": "About ",
+    "aboutUs": "About ",
+    "aboutUsContent": "We are a company specialized in implementing engineering projects in the fields of energy, oil, and gas, and designing water treatment plants. It was established in 1994 and has developed into a leading company in the field of contracting and energy. We seek to provide sustainable solutions of high quality in accordance with global standards for infrastructure development.",
+    "OurGallery": "Products",
+    "OurGalleryButton": "See More",
+    "contactUs": "Contact ",
+    "contactUsContent": "Feel free to send us a message",
+    "contactUsButton": "Get Started"
+  },
+  "footer": {
+    "companyName": "Albasra Heavy Machinery",
+    "rights": "© All rights reserved for albasra-heavy-machinery Company 2024.",
+    "phone": "+964 7710314292",
+    "email": "info@albasra-heavy-machinery.iq",
+    "location": "Albasra, Iraq"
+  },
+  "aboutUs": {
+    "title": "About ",
+    "content": "A company that carries out the work of preparing, implementing and designing projects of a technical and engineering nature in the field of electric power generation plants as well as oil and gas projects, as well as designing and equipping water filtration and industrial water treatment plants.",
+    "Brand history": "Brand history",
+    "ourServices": "The most important projects ",
+    "services": {
+      "1": "Rehabilitation works in Sinjar Cement Plant in 2000",
+      "2": "Design and implementation of the medical alcohol plant in 2000 in Mosul Sugar Plant",
+      "3": "Preparing field equipment for Al-Qaim Cement Plant",
+      "4": "Installation and equipment of field control and measurement devices for the boiler of the second unit in Al-Musayyab Power Plant 1999",
+      "5": "Preparing and maintaining dry air compressors for the South Baghdad Power Plant in 2003",
+      "6": "Preparing equipment and raw materials for the Ministry of Industry for Al-Faris General Company",
+      "7": "Preparing compressors and fuel pumps for the mobile Chinese refinery in 2001",
+      "8": "Installing the salt water treatment unit for the Free Zones Authority in Khor Al-Zubair",
+      "9": "Preparing boiler pipes for the South Baghdad Power Plant and the thermal cycle",
+      "10": "Preparing superheater platinum files for the Nasiriyah Power Plant in 2014",
+      "11": "Preparing various pumps  For Nasiriyah Power Plant in 2014",
+      "12": "Preparing Corten Steel Plate for Power Production in Basra in 2013",
+      "13": "Preparing Plate of Different Sizes for Technical Workshops Qualification",
+      "14": "Preparing Pipes for the Central Oil Company in 2016 with a Length of 1400 Meters",
+      "15": "Preparing Pipes and Accessories for the Central Oil Company with a Length of 6000 Meters of Different Sizes"
     },
-    "footer": {
-      "companyName": "albasra-heavy-machinery Company",
-      "rights": "© All rights reserved for albasra-heavy-machinery Company 2024.",
-      "phone": "+964 7710314292"
+    "areasOfSpecialization": "Areas of Specialization",
+    "specializations": {
+      "1": "Criminal Law: Defending clients in complex criminal cases, preparing appropriate defenses, and analyzing criminal evidence.",
+      "2": "Family Law: Handling family-related cases such as divorce, child custody, and property division.",
+      "3": "Commercial Law: Providing legal consultation and representation in business disputes, commercial contracts, and arbitration.",
+      "4": "Civil Law: Addressing civil matters, including contract disputes, personal status laws, and civil liabilities."
     },
-    "aboutUs": {
-      "title": "About ",
-      "content": "A company that carries out the work of preparing, implementing and designing projects of a technical and engineering nature in the field of electric power generation plants as well as oil and gas projects, as well as designing and equipping water filtration and industrial water treatment plants.",
-      "Brand history":"Brand history",
-      "ourServices": "The most important projects ",
-      "services": {
-"1": "Rehabilitation works in Sinjar Cement Plant in 2000",
-"2": "Design and implementation of the medical alcohol plant in 2000 in Mosul Sugar Plant",
-"3": "Preparing field equipment for Al-Qaim Cement Plant",
-"4": "Installation and equipment of field control and measurement devices for the boiler of the second unit in Al-Musayyab Power Plant 1999",
-"5":"Preparing and maintaining dry air compressors for the South Baghdad Power Plant in 2003",
-"6": "Preparing equipment and raw materials for the Ministry of Industry for Al-Faris General Company",
-"7":"Preparing compressors and fuel pumps for the mobile Chinese refinery in 2001",
-"8": "Installing the salt water treatment unit for the Free Zones Authority in Khor Al-Zubair",
-"9":"Preparing boiler pipes for the South Baghdad Power Plant and the thermal cycle",
-"10":"Preparing superheater platinum files for the Nasiriyah Power Plant in 2014",
-"11": "Preparing various pumps  For Nasiriyah Power Plant in 2014",
-"12":"Preparing Corten Steel Plate for Power Production in Basra in 2013",
-"13":"Preparing Plate of Different Sizes for Technical Workshops Qualification",
-"14": "Preparing Pipes for the Central Oil Company in 2016 with a Length of 1400 Meters",
-"15":"Preparing Pipes and Accessories for the Central Oil Company with a Length of 6000 Meters of Different Sizes"
-},
-      "areasOfSpecialization": "Areas of Specialization",
-      "specializations": {
-        "1": "Criminal Law: Defending clients in complex criminal cases, preparing appropriate defenses, and analyzing criminal evidence.",
-        "2": "Family Law: Handling family-related cases such as divorce, child custody, and property division.",
-        "3": "Commercial Law: Providing legal consultation and representation in business disputes, commercial contracts, and arbitration.",
-        "4": "Civil Law: Addressing civil matters, including contract disputes, personal status laws, and civil liabilities."
-      },
-      "ourGoals": "Our Goals",
-      "Goals":"We strive to provide integrated and sustainable solutions in the fields of energy and water by executing high-quality engineering projects. Our goal is to achieve customer satisfaction by delivering the best engineering services and adhering to global standards in all stages of design, preparation, execution, and maintenance. This contributes to the development of infrastructure and increased productivity across various sectors.",
-      "history": "Brand History",
-      "historyContent": "The company was established in the early 1990s in 1994 as Al-Sayer Office for Engineering Services to carry out the preparation and qualification of electrical power systems. In 1999, the office expanded its activities to include contracting work in addition to preparation, implementation, and design. In 2009, the legal status of the office was adjusted to become Al-Sayer Engineering Services Company. In 2014, the company changed its name to include contracting activities, becoming Al-Sayer General Trading and Contracting and Engineering Services Company. The company is considered one of the key players in the energy sector (oil and electricity).",
-      "historyList": {
-        "1": "Lawyer and Judge: [Your Name] has over 25 years of experience practicing law, including serving as a judge in civil and commercial courts in Baghdad and Basra.",
-        "2": "Commercial Court Judge: Presided over complex commercial disputes and contract cases as a judge at the Commercial Court in Basra.",
-        "3": "Civil Court Judge: Oversaw civil cases in several courts, including Basra and Maqil.",
-        "4": "Family Court Judge: Led family court cases in Sadr City, handling complex family matters and ensuring the protection of family rights.",
-        "5": "Advisor in Corruption and Immigration Cases: Developed investigation procedures for corruption and immigration cases, and supervised Interpol inquiries at the highest levels."
-      },
-      "publicationsndAchievements": "Publications and Achievements",
-      "publications": {
-        "1": "Editor-in-Chief: Supervised the publication of the 'Legal Truth' magazine from 2008 to 2016, specializing in legal affairs.",
-        "2": "Legal Articles: Authored numerous articles in the Iraqi Judicial Council newspaper and legal digital magazine, discussing various legal issues.",
-        "3": "Television Programs: Featured in a prominent television show, 'Legal Files', which focused on important legal matters in Iraq.",
-        "4": "Notable Judicial Decisions: Delivered key legal rulings in the Federal Court and Basra Court of Appeal, including cases on civil rights protection and legislative annulment."
-      },
-      "training": "Training and Advanced Courses",
-      "trainings": {
-        "1": "Rule of Law and Judicial Reform: Organized by the U.S. Department of Justice.",
-        "2": "Cross-Border Crimes and Judicial Cooperation: Organized by the European Union.",
-        "3": "International Commercial Arbitration: Organized by the U.S. Embassy in Iraq.",
-        "4": "Money Laundering and Financial Crimes: Organized by the United Nations.",
-        "5": "Institute of Criminal Sciences: Specialized training in Italy."
-      },
-      "keyAchievements": "Key Achievements",
-      "achievements": {
-        "1": "Legal Truth Magazine: Led the editorial team of a prominent legal magazine published from 2008 to 2016.",
-        "2": "Published Articles: Authored articles featured in the Iraqi Judicial Council newspaper and online legal platforms.",
-        "3": "Television Program: Appeared in a television program titled 'Legal Files', discussing significant legal issues in Iraq."
-      }
+    "ourGoals": "Our Goals",
+    "Goals": "We strive to provide integrated and sustainable solutions in the fields of energy and water by executing high-quality engineering projects. Our goal is to achieve customer satisfaction by delivering the best engineering services and adhering to global standards in all stages of design, preparation, execution, and maintenance. This contributes to the development of infrastructure and increased productivity across various sectors.",
+    "history": "Brand History",
+    "historyContent": "The company was established in the early 1990s in 1994 as Al-Sayer Office for Engineering Services to carry out the preparation and qualification of electrical power systems. In 1999, the office expanded its activities to include contracting work in addition to preparation, implementation, and design. In 2009, the legal status of the office was adjusted to become Al-Sayer Engineering Services Company. In 2014, the company changed its name to include contracting activities, becoming Al-Sayer General Trading and Contracting and Engineering Services Company. The company is considered one of the key players in the energy sector (oil and electricity).",
+    "historyList": {
+      "1": "Lawyer and Judge: lawyer has over 25 years of experience practicing law, including serving as a judge in civil and commercial courts in Baghdad and Basra.",
+      "2": "Commercial Court Judge: Presided over complex commercial disputes and contract cases as a judge at the Commercial Court in Basra.",
+      "3": "Civil Court Judge: Oversaw civil cases in several courts, including Basra and Maqil.",
+      "4": "Family Court Judge: Led family court cases in Sadr City, handling complex family matters and ensuring the protection of family rights.",
+      "5": "Advisor in Corruption and Immigration Cases: Developed investigation procedures for corruption and immigration cases, and supervised Interpol inquiries at the highest levels."
+    },
+    "publicationsndAchievements": "Publications and Achievements",
+    "publications": {
+      "1": "Editor-in-Chief: Supervised the publication of the 'Legal Truth' magazine from 2008 to 2016, specializing in legal affairs.",
+      "2": "Legal Articles: Authored numerous articles in the Iraqi Judicial Council newspaper and legal digital magazine, discussing various legal issues.",
+      "3": "Television Programs: Featured in a prominent television show, 'Legal Files', which focused on important legal matters in Iraq.",
+      "4": "Notable Judicial Decisions: Delivered key legal rulings in the Federal Court and Basra Court of Appeal, including cases on civil rights protection and legislative annulment."
+    },
+    "training": "Training and Advanced Courses",
+    "trainings": {
+      "1": "Rule of Law and Judicial Reform: Organized by the U.S. Department of Justice.",
+      "2": "Cross-Border Crimes and Judicial Cooperation: Organized by the European Union.",
+      "3": "International Commercial Arbitration: Organized by the U.S. Embassy in Iraq.",
+      "4": "Money Laundering and Financial Crimes: Organized by the United Nations.",
+      "5": "Institute of Criminal Sciences: Specialized training in Italy."
+    },
+    "keyAchievements": "Key Achievements",
+    "achievements": {
+      "1": "Legal Truth Magazine: Led the editorial team of a prominent legal magazine published from 2008 to 2016.",
+      "2": "Published Articles: Authored articles featured in the Iraqi Judicial Council newspaper and online legal platforms.",
+      "3": "Television Program: Appeared in a television program titled 'Legal Files', discussing significant legal issues in Iraq."
     }
   }
+}

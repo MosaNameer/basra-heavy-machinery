@@ -23,14 +23,14 @@ const About = () => {
       </section>
 
       {/* History Section */}
-      <section className="container mx-auto px-6 py-12">
+      {/* <section className="container mx-auto px-6 py-12">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
         {t("aboutUs.history")}
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-center md:text-right ltr:text-left">
         {t("aboutUs.historyContent")}
         </p>
-      </section>
+      </section> */}
 
       {/* History Section */}
       <section className="container mx-auto px-6 py-12">

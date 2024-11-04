@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { Button, Card } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -36,18 +36,19 @@ const Home = () => {
             <div className="max-w-lg">
               <div className="h-1 w-10 bg-black mb-4"></div>
               <h1 className="font-bold text-4xl mb-6">
-              {t("homePage.companyName")} {/* Translate company name */}
-                
+                {t("homePage.companyName")} {/* Translate company name */}
               </h1>
               <p className="text-lg text-gray-700 mb-6">
-              {t("homePage.companyDescription")} {/* Translate company description */}
+                {t("homePage.companyDescription")}{" "}
+                {/* Translate company description */}
               </p>
               <Link to={"/about"}>
                 <Button
                   color="black"
                   className="rounded-full hover:bg-gray-800 px-6 py-2 text-xl"
                 >
-                 {t("homePage.companyDescriptionButton")} {/* Translate button text */}
+                  {t("homePage.companyDescriptionButton")}{" "}
+                  {/* Translate button text */}
                 </Button>
               </Link>
             </div>
@@ -70,9 +71,10 @@ const Home = () => {
       <section className="bg-gray-100 py-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold mb-6">{t("homePage.aboutUs")}</h2> {/* Translate About Us section title */}
+            <h2 className="text-4xl font-bold mb-6">{t("homePage.aboutUs")}</h2>{" "}
+            {/* Translate About Us section title */}
             <p className="text-gray-700 mb-8">
-            {t("homePage.aboutUsContent")} {/* Translate About Us content */}
+              {t("homePage.aboutUsContent")} {/* Translate About Us content */}
             </p>
             {/* <Button className="bg-lime-300 text-gray-800 rounded-full w-40 py-3 hover:bg-lime-400 transition-colors">
               Shop now
@@ -94,7 +96,7 @@ const Home = () => {
           <h1
             className="text-3xl font-bold text-center mb-8" // Reduced heading size and margin
           >
-         {t("homePage.OurGallery")}
+            {t("homePage.OurGallery")}
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {/* Left Column: Two stacked images */}
@@ -147,7 +149,8 @@ const Home = () => {
               <button
                 className="bg-black text-white rounded-full hover:bg-gray-800 px-6 py-2 text-lg font-semibold" // Reduced padding
               >
-                     {t("homePage.OurGalleryButton")} {/* Translate See More button */}
+                {t("homePage.OurGalleryButton")}{" "}
+                {/* Translate See More button */}
               </button>
             </Link>
           </div>
@@ -163,13 +166,16 @@ const Home = () => {
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative text-center w-full">
-          <h1 className="text-3xl font-bold text-white mb-4">   {t("homePage.contactUs")}</h1>
+          <h1 className="text-3xl font-bold text-white mb-4">
+            {" "}
+            {t("homePage.contactUs")}
+          </h1>
           <p className="text-lg text-gray-300 mb-8">
-          {t("homePage.contactUsContent")}
+            {t("homePage.contactUsContent")}
           </p>
           <a href="mailto:info@albasra-heavy-machinery.iq">
             <button className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg">
-            {t("homePage.contactUsButton")}
+              {t("homePage.contactUsButton")}
             </button>
           </a>
         </div>

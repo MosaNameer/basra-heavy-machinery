@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18n from "../lib/i18next";
@@ -22,7 +22,7 @@ export function MyNavbar() {
   const { t } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState("en");
 
- useEffect(() => {
+  useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
         setIsOpen(false);
@@ -32,8 +32,6 @@ export function MyNavbar() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
-
   useEffect(() => {
     // Update document direction on language change
     document.documentElement.setAttribute(
@@ -42,13 +40,12 @@ export function MyNavbar() {
     );
   }, [currentLanguage]);
 
-
   const navItems = [
     { name: t("home"), path: "/" },
     { name: t("gallery"), path: "/gallery" },
     { name: t("about"), path: "/about" },
     // { name: t("contact"), path: "/contact" },
-  ]
+  ];
 
   const toggleLanguage = () => {
     const newLanguage = currentLanguage === "en" ? "ar" : "en";
@@ -56,29 +53,32 @@ export function MyNavbar() {
     i18n.changeLanguage(newLanguage);
   };
 
-  
   return (
     <nav className="sticky top-0 z-10 bg-white/80 backdrop-blur-md shadow-sm">
       {/* Adjusted padding */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2"> 
-        <div className="flex items-center justify-between h-20"> {/* Increased height */}
-         
-         
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+        <div className="flex items-center justify-between h-20">
+          {" "}
+          {/* Increased height */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
               <img
                 src="/logo.png"
-                alt="sama Logo"
-                className="w-36 object-cover"
+                alt="albasra heavy Logo"
+                className="w-32 object-cover"
               />
             </Link>
           </div>
-
-
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline gap-6 text-xl">
               {navItems.map((item) => (
-                <NavLink key={item.name} to={item.path} className={({ isActive }) => isActive ? "text-white" : "text-[#C4AC6D]"}>
+                <NavLink
+                  key={item.name}
+                  to={item.path}
+                  className={({ isActive }) =>
+                    isActive ? "text-white" : "text-[#C4AC6D]"
+                  }
+                >
                   {item.name}
                 </NavLink>
               ))}
@@ -91,8 +91,6 @@ export function MyNavbar() {
               </button>
             </div>
           </div>
-
-          
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -135,10 +133,6 @@ export function MyNavbar() {
               )}
             </button>
           </div>
-
-
-
-
         </div>
       </div>
 
@@ -167,7 +161,6 @@ export function MyNavbar() {
           </div>
         </div>
       )}
-      
     </nav>
   );
 }
